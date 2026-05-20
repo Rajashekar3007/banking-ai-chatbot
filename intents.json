@@ -1,0 +1,129 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning"],
+      "responses": ["Hello! How can I help you today?"]
+    },
+    {
+      "tag": "balance",
+      "patterns": ["check my balance", "what is my account balance", "show balance"],
+      "responses": ["Please check your balance through mobile banking."]
+    },
+    {
+      "tag": "loan",
+      "patterns": ["how to apply for loan", "loan details", "loan process"],
+      "responses": ["You can apply for a loan through our banking portal."]
+    },
+    {
+      "tag": "card",
+      "patterns": ["block my card", "reset debit pin", "lost my card"],
+      "responses": ["Please use mobile banking to block or reset your card."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye"],
+      "responses": ["Goodbye! Have a nice day."]
+    },
+    {
+      "tag": "account_opening",
+      "patterns": ["open account", "create bank account", "new savings account"],
+      "responses": ["You can open an account online or visit the nearest branch."]
+    },
+    {
+      "tag": "credit_card",
+      "patterns": ["apply credit card", "credit card process", "new credit card"],
+      "responses": ["You can apply for a credit card through our website."]
+    },
+    {
+      "tag": "debit_card",
+      "patterns": ["new debit card", "replace debit card", "debit card request"],
+      "responses": ["You can request a new debit card via mobile banking."]
+    },
+    {
+      "tag": "fd",
+      "patterns": ["fixed deposit", "fd interest", "open fd"],
+      "responses": ["Fixed deposits can be opened online through net banking."]
+    },
+    {
+      "tag": "rd",
+      "patterns": ["recurring deposit", "rd account", "start rd"],
+      "responses": ["Recurring deposit setup is available through mobile banking."]
+    },
+    {
+      "tag": "transfer",
+      "patterns": ["transfer money", "send money", "fund transfer"],
+      "responses": ["You can transfer money using UPI, NEFT, or IMPS."]
+    },
+    {
+      "tag": "upi",
+      "patterns": ["upi issue", "upi payment failed", "upi transaction"],
+      "responses": ["Please check network status or retry after a few minutes."]
+    },
+    {
+      "tag": "net_banking",
+      "patterns": ["net banking login", "internet banking access", "login issue"],
+      "responses": ["Reset your password or contact support for login help."]
+    },
+    {
+      "tag": "mobile_banking",
+      "patterns": ["mobile app issue", "banking app login", "mobile banking"],
+      "responses": ["Please update the app or reinstall it."]
+    },
+    {
+      "tag": "cheque_book",
+      "patterns": ["request cheque book", "new cheque book", "cheque request"],
+      "responses": ["Cheque books can be requested online."]
+    },
+    {
+      "tag": "atm",
+      "patterns": ["nearest atm", "atm location", "find atm"],
+      "responses": ["Use our ATM locator in mobile banking."]
+    },
+    {
+      "tag": "branch",
+      "patterns": ["nearest branch", "bank branch", "find bank"],
+      "responses": ["Use branch locator on our website."]
+    },
+    {
+      "tag": "statement",
+      "patterns": ["download statement", "bank statement", "account statement"],
+      "responses": ["Statements can be downloaded via net banking."]
+    },
+    {
+      "tag": "emi",
+      "patterns": ["emi details", "loan emi", "monthly emi"],
+      "responses": ["EMI details are available in the loan section."]
+    },
+    {
+      "tag": "interest_rate",
+      "patterns": ["interest rates", "loan interest", "deposit rates"],
+      "responses": ["Current rates are available on our official website."]
+    },
+    {
+      "tag": "kyc",
+      "patterns": ["update kyc", "kyc process", "verify kyc"],
+      "responses": ["KYC can be updated online or at the branch."]
+    },
+    {
+      "tag": "customer_support",
+      "patterns": ["contact support", "customer care", "help desk"],
+      "responses": ["Please call our 24/7 customer support helpline."]
+    },
+    {
+      "tag": "password_reset",
+      "patterns": ["reset password", "forgot password", "change password"],
+      "responses": ["Reset your password using the Forgot Password option."]
+    },
+    {
+      "tag": "transaction_failed",
+      "patterns": ["transaction failed", "payment failed", "money debited not credited"],
+      "responses": ["Failed transactions are usually reversed within 24 hours."]
+    },
+    {
+      "tag": "rewards",
+      "patterns": ["reward points", "credit card rewards", "redeem points"],
+      "responses": ["Reward points can be redeemed in the rewards section."]
+    }
+  ]
+}
